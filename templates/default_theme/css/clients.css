@@ -1,0 +1,62 @@
+/*
+MAIN
+*/
+
+.client-block{
+    width: 280px;
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    font: 14px tahoma;
+    float:left;
+}
+
+.client-block img{
+    width: 230px;
+}
+
+.client-block img:hover{
+    opacity: 0.5;
+}
+
+/*
+WEBSITE-PAGE
+*/
+
+.website-block span,p{
+    font-size: 14px;
+}
+
+.website-title{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.website-descr{
+    width: 400px;
+    float: left;
+}
+
+.website-descr p{
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.website-image{
+    float: right;
+}
+
+.website-cr-date{
+    font-size: 16px;
+    float: left;
+}
+
+.website-md-date{
+    font-size: 16px;
+    float: right;
+}
+
+.website-url{
+    text-align: center;
+}

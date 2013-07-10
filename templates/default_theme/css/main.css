@@ -1,0 +1,141 @@
+html,body,div,span,
+h1, h2, h3, h4, h5, h6, p,
+ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-style: normal;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+html,body {
+    height: 100%;
+    min-height: 100%;
+    font: 12px tahoma;
+}
+
+/*
+HEADER
+*/
+
+#header{
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    /*margin-bottom: 12px;*/
+}
+
+#header-container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#header-container span{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#header-container span a{
+    text-decoration: none;
+    color: #333;
+}
+
+/*
+LOGIN
+*/
+
+#login{
+    position: relative;
+    float: right;
+}
+
+/*
+TOP-MENU
+*/
+
+#top-menu{
+    margin-top: 8px;
+    text-align: center;
+    height: 40px;
+}
+
+#top-menu ul{
+    list-style: none;
+    height: 30px;
+    padding: 10px;
+}
+
+#top-menu ul li{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #777;
+}
+
+#top-menu ul li a{
+    font: 15px tahoma;
+    text-decoration: none;
+    color: black;
+}
+
+#top-menu ul li a:hover{
+    color: orange;
+}
+
+/*
+CONTENT
+*/
+
+#main{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.main-container{
+    /*margin: 30px 0 0 0;*/
+}
+
+#content{
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*
+FOOTER
+*/
+
+#footer{
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#footer-container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.copyright{
+    float:left;
+}
+
+/*
+ERROR
+*/
+
+#error{
+    text-align: center;
+}
+
+#error h1{
+    font-size: 24px;
+}
+
+#error span{
+    font-size: 150px;
+}

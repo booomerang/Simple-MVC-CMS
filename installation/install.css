@@ -1,0 +1,28 @@
+body{
+    font: 14px tahoma;
+}
+
+#form-mid{
+    margin: 0 auto;
+    width: 25%;
+}
+
+button{
+    background: none repeat scroll 0 0 #2B74B3;
+    color:white;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 3px;
+}
+button:hover{
+    background: none repeat scroll 0 0 #6D61A6;
+}
+
+#button{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+}
